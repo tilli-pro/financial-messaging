@@ -2,6 +2,8 @@
 name = "iso-20022"
 description = "Strongly typed ISO 20022 (MX) messages generated from the official XSDs."
 readme = "README.md"
+documentation = "https://docs.rs/iso-20022"
+exclude = ["tests/", "fuzz/", "testdata/", "fixtures/", "*.snap", ".github/"]
 keywords = ["iso20022", "payments", "xml", "swift", "fintech"]
 version.workspace = true
 edition.workspace = true
