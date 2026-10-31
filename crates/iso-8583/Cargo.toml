@@ -1,0 +1,22 @@
+[package]
+name = "iso-8583"
+description = "Spec-driven ISO 8583 codec: MTI, bitmaps, data elements and per-host field tables."
+readme = "README.md"
+keywords = ["iso8583", "payments", "card", "codec", "fintech"]
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+categories.workspace = true
+
+[dependencies]
+thiserror.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+
+[lints]
+workspace = true

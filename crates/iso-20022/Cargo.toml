@@ -1,0 +1,22 @@
+[package]
+name = "iso-20022"
+description = "Strongly typed ISO 20022 (MX) messages generated from the official XSDs."
+readme = "README.md"
+keywords = ["iso20022", "payments", "xml", "swift", "fintech"]
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+categories.workspace = true
+
+[dependencies]
+thiserror.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+
+[lints]
+workspace = true

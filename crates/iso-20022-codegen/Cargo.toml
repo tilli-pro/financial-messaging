@@ -1,0 +1,23 @@
+[package]
+name = "iso-20022-codegen"
+description = "Generator that turns official ISO 20022 XSDs into strongly typed Rust for the iso-20022 crate."
+readme = "README.md"
+keywords = ["iso20022", "codegen", "xsd", "payments", "fintech"]
+categories = ["development-tools::build-utils", "encoding", "finance"]
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "iso-20022-codegen"
+path = "src/main.rs"
+
+[lints]
+workspace = true

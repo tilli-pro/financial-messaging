@@ -1,0 +1,4 @@
+# Default reviewers for everything in this repository.
+# NOTE: the GitHub team @tilli-pro/financial-messaging-maintainers must be
+# created (and given write access to this repository) for this rule to apply.
+* @tilli-pro/financial-messaging-maintainers
