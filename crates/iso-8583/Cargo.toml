@@ -2,6 +2,8 @@
 name = "iso-8583"
 description = "Spec-driven ISO 8583 codec: MTI, bitmaps, data elements and per-host field tables."
 readme = "README.md"
+documentation = "https://docs.rs/iso-8583"
+exclude = ["tests/", "fuzz/", "testdata/", "fixtures/", "*.snap", ".github/"]
 keywords = ["iso8583", "payments", "card", "codec", "fintech"]
 version.workspace = true
 edition.workspace = true
